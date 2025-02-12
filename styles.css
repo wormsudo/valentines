@@ -1,3 +1,17 @@
-body {
+html, body {
     background-color: rgb(235, 120, 226);
+    height: 100vh;
+    margin: 0;
+    overflow-y: hidden;
+}
+
+.cd {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.5);
+}
+
+.cd img {
+    display: block;
 }
