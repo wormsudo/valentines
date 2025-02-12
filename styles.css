@@ -10,7 +10,8 @@ html, body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.5);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, opacity 0.8s ease;
+    opacity: 1;
 }
 
 .cd:hover {
@@ -20,4 +21,8 @@ html, body {
 .cd img {
     border-radius: 50px;
     display: block;
+}
+
+.fade-out {
+    opacity: 0;
 }

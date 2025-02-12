@@ -1,4 +1,8 @@
-cdPicture = document.getElementById("cd");
+const cdPicture = document.getElementById("cd");
+
 function unlock() {
-    cdPicture.style.display = 'none';
+    cdPicture.classList.add('fade-out');
+    setTimeout(() => {
+        cdPicture.style.display = 'none';
+    }, 500);
 }
