@@ -10,8 +10,14 @@ html, body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(0.5);
+    transition: transform 0.3s ease;
+}
+
+.cd:hover {
+    transform: translate(-50%, -50%) scale(0.525);
 }
 
 .cd img {
+    border-radius: 50px;
     display: block;
 }
